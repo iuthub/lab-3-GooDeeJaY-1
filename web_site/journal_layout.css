@@ -4,22 +4,38 @@ body {
 }
 
 div.content {
-    border: 5px green solid;
+    border: 10px white solid;
     background-color: white;
     margin: 0 10% 0 10%;
 }
 
-div.heading {
-    border: 5px red solid;
+div.content-heading {
+    background-color: #A8F0F0;
     text-align: right;
+    padding: 2px;
+    align-self: center;
 }
 
-div.heading h2 {
-    border: 5px orange solid;
+div.content-heading h2 {
+    font-size: 14pt;
+}
+
+div.content-body {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+div.sidebar {
+    margin: 10px 10px 10px 0;
+    padding: 5px 5px 5px 10px;
+    border: 4px #009097 solid;
+    background-color: #99E0E0;
+    height: min-content;
+    width: 60%;
 }
 
 div.post {
-    border: 5px blue solid;
+    border: 4px #C2E9E9 solid;
     background-color: #E8FBFB;
     padding: 5px;
     margin-top: 10px;
@@ -27,7 +43,7 @@ div.post {
 }
 
 span.date {
-    border: 5px purple solid;
+    border-bottom: 2px lightblue dashed;
 }
 
 img {
