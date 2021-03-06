@@ -1,0 +1,35 @@
+body {
+    background-image: url("images/bg.jpg");
+    background-repeat: repeat;
+}
+
+div.content {
+    border: 5px green solid;
+    background-color: white;
+    margin: 0 10% 0 10%;
+}
+
+div.heading {
+    border: 5px red solid;
+    text-align: right;
+}
+
+div.heading h2 {
+    border: 5px orange solid;
+}
+
+div.post {
+    border: 5px blue solid;
+    background-color: #E8FBFB;
+    padding: 5px;
+    margin-top: 10px;
+    overflow: auto;
+}
+
+span.date {
+    border: 5px purple solid;
+}
+
+img {
+    float: right;
+}
